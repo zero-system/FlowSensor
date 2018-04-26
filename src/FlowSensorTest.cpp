@@ -28,6 +28,6 @@ void loop()
 //	fs.LCDPrint();
 
 	lcd.setCursor( 0 , 4 );
-	lcd.print( String( millis() / 1000 ) + " sec" );
+	lcd.print( ( millis() / 1000 ) + " sec" );
 	delay( 100 );
 }
